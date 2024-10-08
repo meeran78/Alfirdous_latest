@@ -1,3 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+
+.gradi-theme-text{
+  background: linear-gradient(90deg,  rgba(241, 178, 168, 1) 0%, rgb(236, 87, 168, 1) 49%, rgba(91, 90, 247, 1) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+button{
+  cursor: pointer;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(91, 90, 247, 1);
+  margin-top: 25px;
+  font-weight: 700;
+  transition: background-color 0.4s ease-in-out;
+}
+
+button:hover{
+  background-color: rgb(187, 180, 184);
+  color: black;
+} 
+
