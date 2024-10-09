@@ -6,6 +6,11 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        '3xl': '1920px',
+        '4xl': '2560px',
+        '5xl': '3840px',       
+      },
       fontFamily: {
         'source-sans': ['Source Sans 3', 'sans-serif'],
         montserrat: ['Montserrat', 'sans-serif'],

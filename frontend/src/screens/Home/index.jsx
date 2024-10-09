@@ -7,18 +7,13 @@ const Home = () => {
 	return (
 		<div className='overflow-x-hidden'>
 			<div className='w-full h-full text-white flex flex-col gap-5'>
-				<div className='flex w-full h-full'>
-					<LandingPage />
-				</div>
-				<div className='flex w-[400px] h-[400px]'>
-					<Welcome />
-				</div>
-				<div className='flex w-[400px] h-[400px]'>
-					<GetStarted />
-				</div>
-				<div className='flex w-[400px] h-[400px]'>
-					<CallSchedule />
-				</div>
+				<LandingPage />
+				
+				<Welcome />
+				
+				<GetStarted />
+				
+				<CallSchedule />
 			</div>
 		</div>
 	);

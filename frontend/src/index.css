@@ -24,7 +24,7 @@ button{
   padding: 10px 20px 10px 20px;
   border-radius: 5px;
   border: none;
-  background-color: rgba(91, 90, 247, 1);
+  background-color: rgb(71, 71, 73);
   margin-top: 25px;
   font-weight: 700;
   transition: background-color 0.4s ease-in-out;
@@ -34,4 +34,3 @@ button:hover{
   background-color: rgb(187, 180, 184);
   color: black;
 } 
-

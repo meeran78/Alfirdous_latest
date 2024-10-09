@@ -6,7 +6,7 @@ const routesConstants = {
     CEMETRIES: '/cemetries',
     FORMS: '/forms',
     FAQS: '/faqs',
-    CONTACT: '/contact',
+    CONTACT: '/contactus',
     LOGIN: '/login',
     SIGNUP: '/signup',
     SIGNUP_SUCCESS: '/signup-success',
