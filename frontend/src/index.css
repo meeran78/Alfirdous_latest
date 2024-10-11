@@ -11,6 +11,74 @@
   font-family: 'Source Sans 3', sans-serif;
 }
 
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+:root {
+  --background-body: #0e0d0ddc;
+  --text-main: #bfc3c5;
+  --text-secondary: #6b6f72;
+  --primary-color: #a8acad;
+  --dark-background-body: #202122;
+  --dark-text-main: #dfdfdf;
+  --dark-text-secondary: #ccc;
+}
+
+::selection {
+  background-color: var(--primary-color); /* Primary color */
+  color: var(--text-main); /* Primary light mode text color */
+}
+
+@layer components {
+  .navlink {
+    @apply relative block min-w-[70px] px-[5px] py-2.5 text-center text-inherit no-underline before:absolute before:left-0 before:bottom-0 before:h-0.5 before:w-full before:scale-x-0 before:bg-text-secondary before:transition-transform before:duration-[0.3s] before:ease-[ease] before:content-[''] md:ml-5 hover:before:md:scale-x-100 [&:not(.selected)]:opacity-70 hover:[&:not(.selected)]:text-primary;
+  }
+
+  .selected {
+    @layer before:bg-primary before:md:scale-x-100 max-w-md:text-primary;
+  }
+
+  a::not(.selected):hover {
+    color: var(--primary-color);
+  }
+
+  a {
+    color: inherit;
+    transition: color linear 0.15s;
+  }
+
+  h2 a,
+  p a,
+  footer a,
+  .back-button {
+    text-decoration: none;
+    box-shadow: inset 0 -0.12em 0 var(--primary-color);
+    -webkit-transition: box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+    transition: box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+  }
+
+  h2 a:hover,
+  p a:hover,
+  footer a:hover,
+  .back-button:hover {
+    box-shadow: inset 0 -1.5em 0 var(--primary-color);
+    color: var(--text-main);
+  }
+
+  hr {
+    padding: 0;
+    border: 0;
+    height: 10px;
+    margin: 40px auto;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='20' height='10'  viewBox='0 0 20 10' xmlns='http://www.w3.org/2000/svg' fill-rule='evenodd' clip-rule='evenodd' stroke-miterlimit='10'%3e%3cpath fill='none' d='M0 0h20v10H0z'/%3e%3cclipPath id='a'%3e%3cpath d='M0 0h20v10H0z'/%3e%3c/clipPath%3e%3cg clip-path='url(%23a)'%3e%3cpath d='M20 7.384c-4.999-.001-5-4.768-9.999-4.768C5 2.616 5 7.384 0 7.384' fill='none' stroke-width='3' stroke='%23548E9B'/%3e%3c/g%3e%3c/svg%3e");
+  }
+}
+
+ul li a{
+  @apply rounded py-[7px] px-[13px] text-[17px] hover:bg-slate-300 transition-all duration-500
+}
+
 
 .gradi-theme-text{
   background: linear-gradient(90deg,  rgba(241, 178, 168, 1) 0%, rgb(236, 87, 168, 1) 49%, rgba(91, 90, 247, 1) 100%);
@@ -34,3 +102,4 @@ button:hover{
   background-color: rgb(187, 180, 184);
   color: black;
 } 
+

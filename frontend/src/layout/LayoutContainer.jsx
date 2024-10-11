@@ -4,7 +4,7 @@ import Footer from './Footer';
 
 const LayoutContainer = () => {
 	return (
-		<div className='bg-errie-black min-h-screen'>
+		<div className='min-h-screen bg-background'>
 			<Header />
 			<main className='relative z-0'>
 				<Outlet></Outlet>
