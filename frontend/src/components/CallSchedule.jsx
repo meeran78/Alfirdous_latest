@@ -2,7 +2,7 @@ import PageBorder from "./PageBorder"
 
 const CallSchedule = () => {
   return (
-    <div  className="text-center align-middle">
+    <div  className="text-center align-middle p-2">
       <div className="flex flex-col justify-center items-center mb-10">
         
         <h1 className='text-2xl'>SCHEDULE A CONSULTATION CALL</h1>

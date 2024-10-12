@@ -2,7 +2,7 @@ import { innaLillah } from '../assets/images/index';
 
 const Donation = () => {
 	return (
-		<div className='flex flex-col justify-center items-center gap-8 text-center'>
+		<div className='flex flex-col justify-center items-center gap-8 text-center text-text-primary p-2'>
 			<img src={innaLillah} alt='Inna Lillah' className='w-[200px] h-[200px] rounded-s mb-5' />
 			<h1 className='text-2xl'>Donate</h1>
 			<h1 className='text-xl'>RELIEVE THE BURDEN OF MUSLIM FAMILIES</h1>

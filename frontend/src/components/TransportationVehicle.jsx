@@ -7,7 +7,7 @@ const TransportationVehicle = () => {
   }
 
   return (
-    <div className=" text-white text-center flex flex-col gap-6 justify-center items-center ">
+    <div className="  text-center flex flex-col gap-6 justify-center items-center text-text-primary p-2">
       <h1 className="text-2xl">Transportation Vehicle </h1>
       <hr className="w-[380px] h-[1px] mx-auto my-4 bg-gray-100 border-0 rounded md:my-10"></hr>  
         <p className="leading-10">

@@ -10,7 +10,7 @@ import Welcome from '../../components/Welcome';
 const Home = () => {
 	return (
 		
-			<div className='w-full h-full text-white flex flex-col gap-5'>
+			<div className='w-full h-full text-white flex flex-col gap-5 '>
 				<LandingPage />
 			
 				<Welcome />

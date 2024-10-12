@@ -4,7 +4,7 @@ const routesConstants = {
     SERVICES: '/services',
     ABOUT: '/about',
     CEMETRIES: '/cemetries',
-    FORMS: '/forms',
+    DOCUMENTS: '/documents',
     FAQS: '/faqs',
     CONTACT: '/contactus',
     LOGIN: '/login',
@@ -16,33 +16,7 @@ const routesConstants = {
     PAGE_NOT_FOUND: '*',
     
 }
-const routes =[
-    {
-        name: 'Home',
-        path: routesConstants.HOME,
-        id: 1
-    },
-    {
-        name: 'Services',
-        path: routesConstants.SERVICES,
-        id: 2
-    },
-    {
-        name: 'About',
-        path: routesConstants.ABOUT,
-        id: 3
-    },
-    {
-        name: 'Cemeteries',
-        path: routesConstants.CEMETRIES,
-        id: 4
-    },
-    {
-        name: 'Forms',
-        path: routesConstants.FORMS,
-        id: 5
-    },
-]
+
 
 export default routesConstants
 

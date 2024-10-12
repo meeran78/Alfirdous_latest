@@ -1,6 +1,6 @@
 const ContactUs = () => {
   return (
-    <div className="h-screen text-white">ContactUs</div>
+    <div className="h-screen text-text-primary p-2">ContactUs</div>
   )
 }
 

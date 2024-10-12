@@ -10,7 +10,7 @@ const PageBorder = () => {
 					}}></path>
 			</svg> */}
 			<div className='inline-flex items-center justify-center w-full'>
-				<hr className='w-64 h-1 my-8 bg-gray-200 border-0 rounded dark:bg-gray-700'></hr>
+				<hr className='w-[664px] h-1 my-8 bg-gray-200 border-0 rounded dark:bg-gray-700'></hr>
 				<div className='absolute px-4 -translate-x-1/2 bg-white left-1/2 dark:bg-gray-900'>
 					<svg
 						className='w-4 h-4 text-white'

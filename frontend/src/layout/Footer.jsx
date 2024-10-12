@@ -2,7 +2,7 @@ import { whatsapp } from '../assets/images';
 import { MdEmail, MdFacebook } from 'react-icons/md';
 const Footer = () => {
 	return (
-		<footer className='bg-errie-black relative border-t-[2px] border-t-white border-solid text-white '>
+		<footer className='bg-errie-black relative border-t-[2px] border-t-white border-solid text-text-primary '>
 			<div className='text-center py-10 space-y-5'>
 				<h1 className='text-3xl'>ALFIRDOUS FUNERAL SERVICE</h1>
 				<h2 className='text-2xl'>Islamic Center Of Richmond (ICR)</h2>

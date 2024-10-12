@@ -2,9 +2,9 @@ import PageBorder from './PageBorder';
 import { img1, img2, img3 } from '../assets/images';
 const GetStarted = () => {
 	return (
-		<div className='flex flex-col justify-center items-center gap-10'>
+		<div className='flex flex-col justify-center items-center gap-10 text-text-primary p-2'>
 			<div className='text-2xl'>HOW TO GET STARTED</div>
-			<div className='text-center text-xl'>
+			<div className='text-center'>
 				We will arrange pickup and complete all the necessary paperwork. Since
 				it is our duty as Muslims to bury the deceased as soon as possible after
 				death, our staff are accustomed to making immediate funeral arrangements

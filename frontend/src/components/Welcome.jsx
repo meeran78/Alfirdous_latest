@@ -10,8 +10,8 @@ const Welcome = () => {
     
     <div className="h-full">
       
-      <div className="flex flex-col justify-center items-center">
-        <h1 className='text-center py-5 text-2xl'>WELCOME TO </h1>
+      <div className="flex flex-col justify-center items-center text-text-primary p-2">
+        <h1 className='text-center py-5 text-2xl '>WELCOME TO </h1>
         <h2 className='py-3 text-xl'>ALFIRDOUS FUNERAL SERVICE</h2>
         <div className='text-center py-3'>Muslim Funeral Burial Services from the Begining to the End including Ghusl (Religious Washing and Shrouding) and Salatul Janazah (The Funeral Prayer)</div>
         <p className='text-center py-3 leading-10'>
