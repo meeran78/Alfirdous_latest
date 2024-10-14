@@ -15,9 +15,15 @@ const Welcome = () => {
         <h2 className='py-3 text-xl'>ALFIRDOUS FUNERAL SERVICE</h2>
         <div className='text-center py-3'>Muslim Funeral Burial Services from the Begining to the End including Ghusl (Religious Washing and Shrouding) and Salatul Janazah (The Funeral Prayer)</div>
         <p className='text-center py-3 leading-10'>
-        For thousands of years, burial has been a traditional means of caring for the physical remains of a loved one. Historical precedence is one thing, but for you, burial may simply be the tradition of your family.
+        Al Firdous funeral service, is an non-profit organization providing complete janazah services.
 
-The passing of a loved one is never easy and as a leading Muslim funeral home in Brooklyn NY and Tri-State, we have seen all kinds of situations and all kinds of families with different levels of need. Even-though, the one thing that remains common is the necessity for a proper burial. Whether you are in need of burial resources or in need of international shipping or need someone to help you make the proper arrangements, we’re here to help you. We are Islamic International Funeral Services of NY and we are led by our faith in Allah to assist all Muslims of Tri-State NY and all the 50 States. Our staff is very consoling and respectful. We know what it means to lose someone you loved dearly so we will handle your case with the utmost sensitivity and sincerity.
+Our mission is to provide a place for preparing the janazah (body washing), performing salatul janazah (funeral prayer), and burial in a dedicated Muslim cemetery.
+
+Our vision is to keep these services low-cost for everyone and free for those who cannot afford such expenses at their time of grief and pain.
+
+The body washing facility is located within Masjid Yousuf (ICR), Richomond, Virginia and the cemetery grounds are located within an hr drive from the Masjid.
+
+These facilities is ideal for providing services to Muslims in the Richmond, Chesterfield and surrounding areas.
         </p>
         <div>
           <button onClick={handleOnClick} className='mb-10' >Contact Us</button>
