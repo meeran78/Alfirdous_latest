@@ -34,7 +34,7 @@ const LandingPage = () => {
 						data-aos-offset='0'
 						data-aos-duration='1500'
 						data-aos-once='true'>
-						Islamic Funeral/Burial/Washing & Repatriation Services
+						Islamic Funeral/Washing & Burial Services
 					</h1>
 					<p
 						data-aos='fade-up'
